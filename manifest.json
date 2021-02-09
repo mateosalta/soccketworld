@@ -1,0 +1,15 @@
+{
+    "architecture": "all",
+    "description": "description of socket-world",
+    "framework": "ubuntu-sdk-16.04",
+    "hooks": {
+        "socket-world": {
+            "apparmor": "socket-world.json",
+            "desktop": "socket-world.desktop"
+        }
+    },
+    "maintainer": "Szymon Waliczek <majsterrr@gmail.com>",
+    "name": "com.ubuntu.developer.majster-pl.socket-world",
+    "title": "socket-world",
+    "version": "0.5"
+}

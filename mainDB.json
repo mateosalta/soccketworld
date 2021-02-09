@@ -1,0 +1,1605 @@
+{
+  "root": {
+    "COPYWRITE":[
+      {"Licene": "GPLv3",
+         "*": "Copyright (C) 2014 Szymon Waliczek.",
+         "*": "Authors:",
+         "*": " Szymon Waliczek <majsterrr@gmail.com>",
+         "*": " This file was created using data from: http://www.iec.ch/worldplugs/",
+
+         "*": "This file is part of SocketWorld app for Ubuntu Touch",
+
+         "*": "This program is free software; you can redistribute it and/or modify",
+         "*": "it under the terms of the GNU Lesser General Public License as published by",
+         "*": "the Free Software Foundation; version 3.",
+         "*": "This program is distributed in the hope that it will be useful,",
+         "*": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+         "*": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+         "*": "GNU Lesser General Public License for more details.",
+
+         "*": "You should have received a copy of the GNU Lesser General Public License",
+         "*": "along with this program.  If not, see <http://www.gnu.org/licenses/>."
+      }
+    ],
+    "plugs":[
+      {
+        "type": "A",
+        "used_in": "Used in: North and Central America, Japan",
+        "full_info": "The Type A electrical plug (or flat blade attachment plug) is an ungrounded plug with two flat parallel pins. Although the American and Japanese plugs appear identical, the neutral pin on the American plug is wider than the live pin, whereas on the Japanese plug both pins are the same size. As a result, Japanese plugs can be used in the US but often not the other way around.\n\nThe pins on Type A and Type B plugs have a hole near the tip that fits into ‘bumps’ found on the contact wipers of some sockets, so that the pins are gripped more tightly allowing for better contact and also to prevent the plug from slipping out of the socket. Some sockets have spring-action blades that grip the sides of the pins, making the holes obsolete."
+      },
+      {
+        "type": "B",
+        "used_in": "Used in: North and Central America, Japan",
+        "full_info": "The Type B electrical plug has two flat parallel pins and a round grounding (or earth) pin. The earth pin is longer than the other two so that the device is grounded before the power is connected. As with the type A plugs, the American and Japanese versions vary slightly.\n\nType B plugs are rated at 15 amps."
+      },
+      {
+        "type": "C",
+        "used_in": "Used in: Europe, with the exception of the UK, Ireland, Cyprus and Malta",
+        "full_info": "The Type C electrical plug (or Europlug) is a two-wire plug that has two round pins. It fits into any socket that accepts 4.0 – 4.8 mm round contacts on 19 mm centres. They are being replaced by E, F, J, K or N sockets which work perfectly with Type C plugs.\n\nType C plugs are generally limited for use in appliances that require 2.5 amps or less."
+      },
+      {
+        "type": "D",
+        "used_in": "Used in: India, Sri Lanka, Nepal, Namibia",
+        "full_info": "The Type D electrical plug has three large round pins in a triangular pattern. Type M plugs are often used alongside Type D plugs for larger appliances and as a result, some sockets work with both Type D and Type M plugs.\n\nType D plugs are rated 5 amps."
+      },
+      {
+        "type": "E",
+        "used_in": "Used in: France, Belgium, Slovakia and Tunisia among others",
+        "full_info": "The Type E electrical plug has two 4.8 mm round pins spaced 19 mm apart and a hole for the socket’s male grounding pin. The Type E socket is different to the Type F socket which is standard in other continental European countries, such as Germany. The CEE 7/7 plug was developed to work with sockets E and F and has grounding clips on both sides (to work with Type F sockets) and a female contact (to accept the grounding pin of the type E socket).\n\nType E plugs are rated 16 amps."
+      },
+      {
+        "type": "F",
+        "used_in": "Used in: Germany, Austria, the Netherlands and Spain among others",
+        "full_info": "The Type F electrical plug (also known as a Schuko plug) has two 4.8 mm round pins spaced 19 mm apart. It is similar to the Type E plug but has two earth clips on the side rather than a female  earth contact. The CEE 7/7 plug was developed to work with sockets E and F and has grounding clips on both sides (to work with Type F sockets) and a female contact (to accept the grounding pin of the type E socket).\n\nType F plugs are rated 16 amps."
+      },
+      {
+        "type": "G",
+        "used_in": "Used in: UK, Ireland, Cyprus, Malta, Malaysia, Singapore, Hong Kong",
+        "full_info": "The Type G electrical plug has three rectangular blades in a triangular pattern and has an incorporated fuse (usually a 3 amps fuse for smaller appliances such as a computer and a 13 amps one for heavy duty appliances such as heaters). British sockets have shutters on the live and neutral contacts so that foreign objects can’t be introduced into them."
+      },
+      {
+        "type": "H",
+        "used_in": "Used in: Israel",
+        "full_info": "The Type H plug is unique to Israel and has two flat pins in a V-shape as well as a grounding pin. It is however currently being phased out in favour of a round-pinned version. The holes in Type H sockets are wide in the middle so as to accommodate the round-pinned version of the Type H plug as well as Type C plugs.\n\nType H plugs are rated 16 amps."
+      },
+      {
+        "type": "I",
+        "used_in": "Used in: Australia, New Zealand, Papua New Guinea, Argentina",
+        "full_info": "The Type I plug has two flat pins in a V-shape as well as a grounding pin. A version of the plug, which only has the two flat pins, exists as well. The Australian plug also works with sockets in China.\n\nAustralia’s standard plug/socket system is rated 10 amps but a plug/socket configuration rated 15 amps also exists, although the ground pin is wider. A standard 10 amp plug will fit into a 15 amp socket but not the other way around."
+      },
+      {
+        "type": "J",
+        "used_in": "Used in: Switzerland and Lichtenstein",
+        "full_info": "The Type J plug has two round pins as well as a grounding pin. Although the Type J plug looks a lot like the Brazilian Type N plug it is incompatible with the Type N socket as the earth pin is further away from the centre line than on Type N. However, Type C plugs are perfectly compatible with Type J sockets.\n\nType J plugs are rated 10 amps."
+      },
+      {
+        "type": "K",
+        "used_in": "Used in: Denmark and Greenland",
+        "full_info": "The Type K plug has two round pins as well as a grounding pin. It is similar to Type F, the difference being that Type F has grounding clips instead of a grounding pin. Type C plugs are perfectly compatible with Type F sockets. Type E plugs and sockets are also used in Denmark."
+      },
+      {
+        "type": "L",
+        "used_in": "Used in: Italy",
+        "full_info": "There are two variations of the Type L plug, one rated at 10 amps, and one at 16 amps. The 10 amp version has two round pins that are 4 mm think and spaced 5.5 mm apart, with a grounding pin in the middle. The 16 amp version has two round pins that are 5 mm thick, spaced 8mm apart, as well as a grounding pin. Italy has a kind of “universal” socket that comprises a “schuko” socket for C, E, F and L plugs and a “bipasso” socket for L and C plugs."
+      },
+      {
+        "type": "M",
+        "used_in": "Used in: South Africa, Swaziland, Lesotho",
+        "full_info": "The Type M plug has three round pins in a triangular pattern and looks similar to the Indian Type D plug, but its pins are much larger. Type M plugs are sometimes used for bigger appliances in countries that make use of Type D plugs, as well as in Israel (Type H). Therefore, sockets in these countries sometimes work with Type M plugs."
+      },
+      {
+        "type": "N",
+        "used_in": "Used in: Brazil",
+        "full_info": "There are two variations of the Type N plug, one rated at 10 amps, and one at 20 amps. The 10 amp version has two round pins that are 4 mm thick, and a grounding pin. The 20 amp version, used for heavier appliances, has two round pins 4.8 mm in diameter, and a grounding pin. The Type N socket was designed to work with Type C plugs as well.\n\nBrazil is one of the few countries that uses two types of voltage. While most states use 127 V, some of them use 220 V. It is therefore important to find out the local voltage before plugging in your appliance (note: wrong voltage can destroy your appliance). Many appliances sold in Brazil are dual voltage."
+      }
+    ],
+
+    "countries": [
+      {
+        "location": "Afghanistan",
+        "countryCode": "af",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Albania",
+        "countryCode": "al",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Algeria",
+        "countryCode": "dz",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "American Samoa",
+        "countryCode": "as",
+        "plug": {"value": ["A","B","F","I"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Andorra",
+        "countryCode": "ad",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Angola",
+        "countryCode": "ao",
+        "plug": {"value": ["C"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Anguilla",
+        "countryCode": "ai",
+        "plug": {"value": ["A"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Antigua and Barbuda",
+        "countryCode": "ag",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Argentina",
+        "countryCode": "ar",
+        "plug": {"value": ["C","I"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Armenia",
+        "countryCode": "am",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Aruba",
+        "countryCode": "aw",
+        "plug": {"value": ["A","B","F"]},
+        "voltage": {"value": ["127V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Australia",
+        "countryCode": "au",
+        "plug": {"value": ["I"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Austria",
+        "countryCode": "at",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Azerbaijan",
+        "countryCode": "az",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Bahamas",
+        "countryCode": "bs",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Bahrain",
+        "countryCode": "bh",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Bangladesh",
+        "countryCode": "bd",
+        "plug": {"value": ["C","D","G","K"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Barbados",
+        "countryCode": "bb",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["115V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Belarus",
+        "countryCode": "by",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Belgium",
+        "countryCode": "be",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Belize",
+        "countryCode": "bz",
+        "plug": {"value": ["A","B","G"]},
+        "voltage": {"value": ["110V", "220V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Benin",
+        "countryCode": "bj",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Bermuda",
+        "countryCode": "bm",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Bhutan",
+        "countryCode": "bt",
+        "plug": {"value": ["C","D","F","G","M"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Bolivia",
+        "countryCode": "bo",
+        "plug": {"value": ["A","C"]},
+        "voltage": {"value": ["115V","230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Bosnia and Herzegovina",
+        "countryCode": "ba",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Botswana",
+        "countryCode": "bw",
+        "plug": {"value": ["D","G","M"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Brazil",
+        "countryCode": "br",
+        "plug": {"value": ["C","N"]},
+        "voltage": {"value": ["127V","220V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "British Virgin Islands",
+        "countryCode": "vg",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Brunei",
+        "countryCode": "bn",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Bulgaria",
+        "countryCode": "bg",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Burkina Faso",
+        "countryCode": "bf",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Burundi",
+        "countryCode": "bi",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Cambodia",
+        "countryCode": "kh",
+        "plug": {"value": ["A","C","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Cameroon",
+        "countryCode": "cm",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Canada",
+        "countryCode": "ca",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Cape Verde",
+        "countryCode": "cv",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Cayman Islands",
+        "countryCode": "ky",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Central African Republic",
+        "countryCode": "cf",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Chad",
+        "countryCode": "td",
+        "plug": {"value": ["C","D","E","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Chile",
+        "countryCode": "cl",
+        "plug": {"value": ["C","L"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "China",
+        "countryCode": "cn",
+        "plug": {"value": ["A","C","I"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Colombia",
+        "countryCode": "co",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Comoros",
+        "countryCode": "km",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Congo",
+        "countryCode": "cg",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Congo (Democratic Rep. of)",
+        "countryCode": "cd",
+        "plug": {"value": ["C","D","E"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Cook Islands",
+        "countryCode": "ck",
+        "plug": {"value": ["I"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Costa Rica",
+        "countryCode": "cr",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Croatia",
+        "countryCode": "hr",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Cuba",
+        "countryCode": "cu",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Cyprus",
+        "countryCode": "cy",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Czech Republic",
+        "countryCode": "cz",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Denmark",
+        "countryCode": "dk",
+        "plug": {"value": ["C","F","E","K"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Djibouti",
+        "countryCode": "dj",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Dominica",
+        "countryCode": "dm",
+        "plug": {"value": ["D","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Dominican Republic",
+        "countryCode": "do",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Ecuador",
+        "countryCode": "ec",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Egypt",
+        "countryCode": "eg",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "El Salvador",
+        "countryCode": "sv",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["115V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Equatorial Guinea",
+        "countryCode": "gq",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Eritrea",
+        "countryCode": "er",
+        "plug": {"value": ["C","L"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Estonia",
+        "countryCode": "ee",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Ethiopia",
+        "countryCode": "et",
+        "plug": {"value": ["C","E","F","L"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Falkland Islands (Malvinas)",
+        "countryCode": "fk",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Faroe Islands",
+        "countryCode": "fo",
+        "plug": {"value": ["C","F","E","K"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Fiji",
+        "countryCode": "fj",
+        "plug": {"value": ["I"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Finland",
+        "countryCode": "fi",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "France",
+        "countryCode": "fr",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "French Guiana",
+        "countryCode": "frg",
+        "plug": {"value": ["C","D","E"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Gabon",
+        "countryCode": "ga",
+        "plug": {"value": ["C"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Gambia",
+        "countryCode": "gm",
+        "plug": {"value": ["G","C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Germany",
+        "countryCode": "de",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Ghana",
+        "countryCode": "gh",
+        "plug": {"value": ["D","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Gibraltar",
+        "countryCode": "gi",
+        "plug": {"value": ["C","G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Greece",
+        "countryCode": "gr",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Greenland",
+        "countryCode": "gl",
+        "plug": {"value": ["C","K"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Grenada",
+        "countryCode": "gd",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Guadeloupe",
+        "countryCode": "frgdp",
+        "plug": {"value": ["C","D","E"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Guam",
+        "countryCode": "gu",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Guatemala",
+        "countryCode": "gt",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Guinea",
+        "countryCode": "gn",
+        "plug": {"value": ["C","F","K"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Guinea Bissau",
+        "countryCode": "gw",
+        "plug": {"value": ["C"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Guyana",
+        "countryCode": "gy",
+        "plug": {"value": ["A","B","D","G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Haiti",
+        "countryCode": "ht",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Honduras",
+        "countryCode": "hn",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Hong Kong",
+        "countryCode": "hk",
+        "plug": {"value": ["G","D"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Hungary",
+        "countryCode": "hu",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Iceland",
+        "countryCode": "is",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "India",
+        "countryCode": "in",
+        "plug": {"value": ["C","D","M"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Indonesia",
+        "countryCode": "id",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V","110V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Iran",
+        "countryCode": "ir",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Iraq",
+        "countryCode": "iq",
+        "plug": {"value": ["C","D","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Ireland",
+        "countryCode": "ie",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Isle of Man",
+        "countryCode": "im",
+        "plug": {"value": ["C","G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Israel",
+        "countryCode": "il",
+        "plug": {"value": ["C","H","M"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Italy",
+        "countryCode": "it",
+        "plug": {"value": ["C","F","L"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Jamaica",
+        "countryCode": "jm",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Japan",
+        "countryCode": "jp",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["100V"]},
+        "frequency": {"value": ["50Hz", "60Hz"]}
+      },
+      {
+        "location": "Jordan",
+        "countryCode": "jo",
+        "plug": {"value": ["B","C","D","F","G","J"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Kazakhstan",
+        "countryCode": "kz",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Kenya",
+        "countryCode": "ke",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Kiribati",
+        "countryCode": "ki",
+        "plug": {"value": ["I"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Korea, Democratic People's Republic of Korea",
+        "countryCode": "kp",
+        "plug": {"value": ["A","C","F"]},
+        "voltage": {"value": ["220,110V"]},
+        "frequency": {"value": ["50Hz", "60Hz"]}
+      },
+      {
+        "location": "Korea,  Republic of Korea",
+        "countryCode": "kr",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Kuwait",
+        "countryCode": "kw",
+        "plug": {"value": ["C","G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Kyrgyzstan",
+        "countryCode": "kg",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Lao People's Democratic Republic",
+        "countryCode": "la",
+        "plug": {"value": ["A","B","C","E","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Latvia",
+        "countryCode": "lv",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Lebanon",
+        "countryCode": "lb",
+        "plug": {"value": ["A","B","C","D","G"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Lesotho",
+        "countryCode": "ls",
+        "plug": {"value": ["M"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Liberia",
+        "countryCode": "lr",
+        "plug": {"value": ["A","B","C","E","F"]},
+        "voltage": {"value": ["120,220V"]},
+        "frequency": {"value": ["50Hz", "60Hz"]}
+      },
+      {
+        "location": "Libya",
+        "countryCode": "ly",
+        "plug": {"value": ["C","D","F","L"]},
+        "voltage": {"value": ["127V","230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Liechtenstein",
+        "countryCode": "li",
+        "plug": {"value": ["C","J"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Lithuania",
+        "countryCode": "lt",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Luxembourg",
+        "countryCode": "lu",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Macau",
+        "countryCode": "mo",
+        "plug": {"value": ["D","F","G","M"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Macedonia",
+        "countryCode": "mk",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Madagascar",
+        "countryCode": "mg",
+        "plug": {"value": ["C","D","E","J","K"]},
+        "voltage": {"value": ["127V","220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Malawi",
+        "countryCode": "mw",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Malaysia",
+        "countryCode": "my",
+        "plug": {"value": ["A","C","G","M"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Maldives",
+        "countryCode": "mv",
+        "plug": {"value": ["A","C","D","G","J","K","L"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Mali",
+        "countryCode": "ml",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Malta",
+        "countryCode": "mt",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Martinique",
+        "countryCode": "frmtq",
+        "plug": {"value": ["C","D","E"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Mauritania",
+        "countryCode": "mr",
+        "plug": {"value": ["C"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Mauritius",
+        "countryCode": "mu",
+        "plug": {"value": ["C","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Mexico",
+        "countryCode": "mx",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["127V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Micronesia, Federated States of Micronesia",
+        "countryCode": "fm",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Moldova",
+        "countryCode": "md",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Monaco",
+        "countryCode": "mc",
+        "plug": {"value": ["C","D","E","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Mongolia",
+        "countryCode": "mn",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Montenegro",
+        "countryCode": "me",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Montserrat",
+        "countryCode": "ms",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Morocco",
+        "countryCode": "ma",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["127V","220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Mozambique",
+        "countryCode": "mz",
+        "plug": {"value": ["C","F","M"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Myanmar",
+        "countryCode": "mm",
+        "plug": {"value": ["C","D","F","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Namibia",
+        "countryCode": "na",
+        "plug": {"value": ["D","M"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Nauru",
+        "countryCode": "nr",
+        "plug": {"value": ["I"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Nepal",
+        "countryCode": "np",
+        "plug": {"value": ["C","D","M"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Netherlands",
+        "countryCode": "nl",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Netherlands Antilles",
+        "countryCode": "an",
+        "plug": {"value": ["A","B","C","F"]},
+        "voltage": {"value": ["127V","220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "New Caledonia",
+        "countryCode": "nc",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "New Zealand",
+        "countryCode": "nz",
+        "plug": {"value": ["I"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Nicaragua",
+        "countryCode": "ni",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Niger",
+        "countryCode": "ne",
+        "plug": {"value": ["A","B","C","D","E","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Nigeria",
+        "countryCode": "ng",
+        "plug": {"value": ["D","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Norway",
+        "countryCode": "no",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Oman",
+        "countryCode": "om",
+        "plug": {"value": ["C","G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Pakistan",
+        "countryCode": "pk",
+        "plug": {"value": ["C","D","G","M"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Palau",
+        "countryCode": "pw",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Panama",
+        "countryCode": "pa",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Papua New Guinea",
+        "countryCode": "pg",
+        "plug": {"value": ["I"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Paraguay",
+        "countryCode": "py",
+        "plug": {"value": ["C"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Peru",
+        "countryCode": "pe",
+        "plug": {"value": ["A","B","C"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Philippines, Republic of the Philippines",
+        "countryCode": "ph",
+        "plug": {"value": ["A","B","C"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Poland",
+        "countryCode": "pl",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Portugal",
+        "countryCode": "pt",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Puerto Rico",
+        "countryCode": "pr",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Qatar",
+        "countryCode": "qa",
+        "plug": {"value": ["D","G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Romania",
+        "countryCode": "ro",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Russia",
+        "countryCode": "ru",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Rwanda",
+        "countryCode": "rw",
+        "plug": {"value": ["C","J"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Saint Kitts and Nevis",
+        "countryCode": "kn",
+        "plug": {"value": ["A","B","D","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Saint Lucia",
+        "countryCode": "lc",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Saint Martin",
+        "countryCode": "mf",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["120V","220V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Saint Vincent and the Grenadines",
+        "countryCode": "vc",
+        "plug": {"value": ["A","C","E","G","I","K"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Samoa",
+        "countryCode": "ws",
+        "plug": {"value": ["I"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "San Marino",
+        "countryCode": "sm",
+        "plug": {"value": ["C","F","L"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Sao Tome and Principe",
+        "countryCode": "st",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Saudi Arabia",
+        "countryCode": "sa",
+        "plug": {"value": ["A","B","F","G"]},
+        "voltage": {"value": ["127V","220V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Senegal",
+        "countryCode": "sn",
+        "plug": {"value": ["C","D","E","K"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Serbia",
+        "countryCode": "rs",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Seychelles",
+        "countryCode": "sc",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Sierra Leone",
+        "countryCode": "sl",
+        "plug": {"value": ["D","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Singapore",
+        "countryCode": "sg",
+        "plug": {"value": ["C","G","M"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Slovakia",
+        "countryCode": "sk",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Slovenia",
+        "countryCode": "si",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Solomon Islands",
+        "countryCode": "sb",
+        "plug": {"value": ["I","G"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Somalia",
+        "countryCode": "so",
+        "plug": {"value": ["C"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "South Africa",
+        "countryCode": "za",
+        "plug": {"value": ["C","D","M","N"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Spain",
+        "countryCode": "es",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Sri Lanka",
+        "countryCode": "lk",
+        "plug": {"value": ["D","M","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Sudan",
+        "countryCode": "sd",
+        "plug": {"value": ["C","D"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Suriname",
+        "countryCode": "sr",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["127V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Swaziland",
+        "countryCode": "sz",
+        "plug": {"value": ["M"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Sweden",
+        "countryCode": "se",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Switzerland",
+        "countryCode": "ch",
+        "plug": {"value": ["C","J"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Syria",
+        "countryCode": "sy",
+        "plug": {"value": ["C","E","L"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Taiwan",
+        "countryCode": "tw",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Tajikistan",
+        "countryCode": "tj",
+        "plug": {"value": ["C","F","I"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Tanzania",
+        "countryCode": "tz",
+        "plug": {"value": ["D","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Thailand",
+        "countryCode": "th",
+        "plug": {"value": ["A","B","C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Timor-Leste",
+        "countryCode": "tl",
+        "plug": {"value": ["C","E","F","I"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Togo",
+        "countryCode": "tg",
+        "plug": {"value": ["C"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Tonga",
+        "countryCode": "to",
+        "plug": {"value": ["I"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Trinidad and Tobago",
+        "countryCode": "tt",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["115V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Tunisia",
+        "countryCode": "tn",
+        "plug": {"value": ["C","E"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Turkey",
+        "countryCode": "tr",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Turkmenistan",
+        "countryCode": "tm",
+        "plug": {"value": ["B","C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Turks and Caicos Islands",
+        "countryCode": "tc",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Tuvalu",
+        "countryCode": "tv",
+        "plug": {"value": ["I"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Uganda",
+        "countryCode": "ug",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["240V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Ukraine",
+        "countryCode": "ua",
+        "plug": {"value": ["C","F"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "United Arab Emirates",
+        "countryCode": "ae",
+        "plug": {"value": ["C","D","G"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "United Kingdom",
+        "countryCode": "gb",
+        "plug": {"value": ["G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "United States Virgin Islands",
+        "countryCode": "vi",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["110V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "United States of America",
+        "countryCode": "us",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Uruguay",
+        "countryCode": "uy",
+        "plug": {"value": ["C","F","I","L"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Uzbekistan",
+        "countryCode": "uz",
+        "plug": {"value": ["C","I"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Vanuatu",
+        "countryCode": "vu",
+        "plug": {"value": ["C","G","I"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Venezuela",
+        "countryCode": "ve",
+        "plug": {"value": ["A","B"]},
+        "voltage": {"value": ["120V"]},
+        "frequency": {"value": ["60Hz"]}
+      },
+      {
+        "location": "Vietnam",
+        "countryCode": "vn",
+        "plug": {"value": ["A","C","G"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Yemen",
+        "countryCode": "ye",
+        "plug": {"value": ["A","D","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Zambia",
+        "countryCode": "zm",
+        "plug": {"value": ["C","D","G"]},
+        "voltage": {"value": ["230V"]},
+        "frequency": {"value": ["50Hz"]}
+      },
+      {
+        "location": "Zimbabwe",
+        "countryCode": "zw",
+        "plug": {"value": ["D","G"]},
+        "voltage": {"value": ["220V"]},
+        "frequency": {"value": ["50Hz"]}
+      }
+    ]
+  }
+}

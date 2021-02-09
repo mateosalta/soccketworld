@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=SocketWorld
+Comment=Find what socket is used in different countries in the World.
+Exec=qmlscene $@ socket-world.qml
+Icon=socketworld.png
+Terminal=false
+Type=Application
+Keywords=Socket,Plug,World;
+X-Ubuntu-Touch=true

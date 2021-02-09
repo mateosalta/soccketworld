@@ -1,0 +1,8 @@
+socket-world.desktop usr/share/applications/
+socket-world.qml usr/share/socketworld/
+mainDB.json usr/share/socketworld/
+socketworld.png usr/share/icons/hicolor/256x256/apps/
+components usr/share/socketworld/
+img usr/share/socketworld/
+sound usr/share/socketworld/
+ui usr/share/socketworld/
